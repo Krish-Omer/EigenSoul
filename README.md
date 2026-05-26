@@ -108,7 +108,7 @@ Dataset-specific calibration
 **INRIA Copydays** - Near-duplicate benchmark with JPEG, crop and strong attacks 
 (https://thoth.inrialpes.fr/~jegou/data.php.html#copyd)
 
-**AirBNB** - Kaggle DataSet
+**AirBNB** - Kaggle DataSet having images with duplicate pairs
 (https://www.kaggle.com/datasets/barelydedicated/airbnb-duplicate-image-detection)
 
 
