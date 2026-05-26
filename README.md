@@ -12,13 +12,19 @@ Spam \& Integrity → prevent repost bots, protect creators
 
 Search Relevance → avoid showing the same image repeatedly
 
-### Demo Video :-
+### 📊 Results :-
 
+**Home — Upload Interface**
+![Home](ui/screenshots/home.png)
 
+**Pipeline-Breakdown**
+![Pipeline](ui/screenshots/pipeline_breakdown.png)
 
-https://github.com/user-attachments/assets/bd08d86b-a376-4cb3-8c9c-3b939e971d88
+**Duplicates flagged by ResNet**
+![ResNet](ui/screenshots/resnet_duplicates.png)
 
-
+**Duplicates flagged by CLIP + LR**
+![CLIP](ui/screenshots/clip_duplicates.png)
 
 
 
