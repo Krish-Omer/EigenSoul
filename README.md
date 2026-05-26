@@ -15,15 +15,19 @@ Search Relevance → avoid showing the same image repeatedly
 ### 📊 Results :-
 
 **Home — Upload Interface**
+
 ![Home](ui/screenshots/home.png)
 
 **Pipeline-Breakdown**
+
 ![Pipeline](ui/screenshots/pipeline_breakdown.png)
 
 **Duplicates flagged by ResNet**
+
 ![ResNet](ui/screenshots/resnet_duplicates.png)
 
 **Duplicates flagged by CLIP + LR**
+
 ![CLIP](ui/screenshots/clip_duplicates.png)
 
 
@@ -97,15 +101,15 @@ Dataset-specific calibration
 
 
 
-### Dataset :- 
+### 🔗 Dataset :- 
 
 
 
-INRIA Copydays — near-duplicate benchmark with strong transformations
+**INRIA Copydays** - Near-duplicate benchmark with JPEG, crop and strong attacks 
+(https://thoth.inrialpes.fr/~jegou/data.php.html#copyd)
 
-Google Landmarks (subset) — large-scale distractor set
-
-AirBNB - Kaggle DataSet
+**AirBNB** - Kaggle DataSet
+(https://www.kaggle.com/datasets/barelydedicated/airbnb-duplicate-image-detection)
 
 
 
