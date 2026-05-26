@@ -113,4 +113,53 @@ Dataset-specific calibration
 
 
 
+### ⚙️ Setup & Installation :-
+
+**Prerequisites**
+- Python 3.12
+- uv (package manager)
+
+**Steps**
+
+**1. Clone the repo**
+```bash
+git clone https://github.com/Krish-Omer/EigenSoul.git
+cd EigenSoul
+```
+
+**2. Create virtual environment**
+```bash
+uv venv .venv --python 3.12
+# Windows
+.venv\Scripts\activate
+# Mac/Linux
+source .venv/bin/activate
+```
+
+**3. Install dependencies**
+```bash
+uv pip install -e .
+pip install git+https://github.com/openai/CLIP.git
+```
+
+**4. Download datasets**
+- [Airbnb](https://www.kaggle.com/datasets/barelydedicated/airbnb-duplicate-image-detection) → place in `data/raw/airbnb/`
+- [INRIA Copydays](http://thoth.inrialpes.fr/~jegou/data.php#copyd) → place in `data/raw/copydays/`
+
+**5. Run pipeline**
+```bash
+python scripts/prepare_airbnb.py
+python scripts/prepare_copydays.py
+python scripts/compute_phash.py
+python scripts/compute_resnet_embeddings.py
+python -m evaluation.build_airbnb_pairs
+python -m evaluation.extract_airbnb_signals
+python -m evaluation.extract_copydays_signals
+python evaluation/train_decider.py
+```
+
+**6. Launch app**
+```bash
+streamlit run ui/app.py
+```
 
