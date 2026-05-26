@@ -11,4 +11,4 @@ Thumbs.db
 *.log
 # Data (optional – discuss below)
 data/raw/
-data/processed/
+data/processed/ndid.egg-info/ 
